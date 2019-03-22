@@ -1,0 +1,38 @@
+.map{
+    display: inline-block;
+    width: 15vw;
+    height: 40vh;
+}
+a{
+    color: black;
+}
+.map .li{
+    cursor: pointer;
+    border-radius: 0 1.5vw 1.5vw 0;
+    background-color: transparent;
+    width: 100%;
+}
+.map .li:hover{
+    background: #f7f7f7;
+}
+.map .li .imgBox{
+    display: inline-block;
+}
+.map .li img{
+    width: 1.5vw;
+    padding: 0.725vw;
+}
+.map .li .textBox{
+    padding: 0.9vw 0;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 1.2vw;
+}
+.content{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 1.5vw;
+}
+.activeAsidePanel{
+    background-color: #f3f3f3 !important;
+}

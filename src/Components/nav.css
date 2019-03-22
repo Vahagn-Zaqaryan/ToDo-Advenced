@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+    content: '';
+}
+.nav{
+    background-color: #fff;
+    width: 100%;
+    display: block;
+}
+.navIn{
+    padding: 0.7vw 2.5vw;
+}
+.nav form{
+    display: inline-block;
+}
+.nav form div{
+    display: inline-block;
+    margin-left: 0.3vw;
+}
+.nav form div input[type='text']{
+    outline: none;
+    border-radius: 0.3vw;
+    background-color: #f3f3f3;
+    border: none;
+    width: 31.78vw;
+    padding: 0.7vw;
+    font-size: 1.2vw;
+}
+.nav form div input[type='submit']{
+    outline: none;
+    border-radius: 0.3vw;
+    background-color: #f3f3f3;
+    border: none;
+    width: 6vw;
+    padding: 0.7vw;
+    font-size: 1.2vw;
+}
+.nav form div select{
+    outline: none;
+    border-radius: 0.3vw;
+    background-color: #f3f3f3;
+    border: none;
+    width: 10vw;
+    padding: 0.7vw;
+    font-size: 1.17276716vw;
+}
+.nav .text{
+    padding: 0.45vw 2.5vw 0.45vw 0.45vw;
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 1.7vw;
+}
